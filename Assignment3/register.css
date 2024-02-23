@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('images/bag-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    max-width: 600px ;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(244, 237, 244);
+    border-radius: 8px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="radio"],
+input[type="checkbox"]{
+    margin-bottom: 5px;
+}
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+.btn-container {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}

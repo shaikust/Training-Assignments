@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Registeration Page</title>
+       <link rel="stylesheet" href="register.css">
+    </head>
+    <body>
+        <div class="form">
+            <h2>Registration Form</h2>
+            <form onsubmit="showAlert()">
+                <input type="text" name="fullname" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <select name="Contry" required>
+                 <option value="">Select Country</option>
+                 <option value="india">India</option>
+                 <option value="america">America</option>
+                 <option value="canda">Canda</option>
+                 <option value="pakistan">Pakistan</option>
+                </select>
+                <label for="gender">Gender:</label>
+                <label>
+                    <input type="radio" name="gender" value="Male" checked> Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="Female"> Female
+                </label>
+                <textarea name="address" placeholder="Address" rows="4" required></textarea>
+                <input type="checkbox" name="terms" value="agree" required>I agree to the terms and conditions<br><br>
+                <div class="btn-container">
+                    <button type="submit" class="btn">Register</button><br>
+                    <a href="https://www.facebook.com">Register with facebook</a>
+                </div>
+                
+
+            </form>
+
+        </div>
+        <script>
+            function showAlert() {
+                alert("Form submitted successfully!");
+            }
+            </script>
+
+    </body>
+</html>
