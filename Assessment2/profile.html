@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+        <link rel="stylesheet" href="profile.css">
+    </head>
+    <body>
+        <h2> User Profile</h2>
+        <div id="profile">
+
+        </div>
+        <div id="link" style="
+        text-align: center;
+        color: wheat;">
+                
+                <a href="login.html">Go to Login page</a>
+    
+        </div>
+        <script>
+           var formData = localStorage.getItem('formData');
+
+           if (formData) {
+                var formDataObj = JSON.parse(formData);
+                var profileDetailsDiv = document.getElementById('profile');
+                profileDetailsDiv.innerHTML = `
+                <p><strong>Username:</strong> ${formDataObj.username}</p>
+                <p><strong>First Name:</strong> ${formDataObj.firstname}</p>
+                <p><strong>Last Name:</strong> ${formDataObj.lastname}</p>
+                <p><strong>Date of Birth:</strong> ${formDataObj.dob}</p>
+                <p><strong>Gender:</strong> ${formDataObj.gender}</p>`;
+            } else {
+                document.getElementById('profileDetails').innerHTML = "<p>No profile details found.</p>";
+            }
+        </script>
+
+
+    </body>
+</html>

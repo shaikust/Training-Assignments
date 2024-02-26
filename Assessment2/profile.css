@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('images/bag-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile{
+    max-width: 600px ;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(244, 237, 244);
+    border-radius: 8px;
+    color: wheat;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{
+    color: wheat;
+    text-align: center;
+}
+.link {
+    text-align: center;
+}
