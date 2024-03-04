@@ -1,0 +1,22 @@
+
+.product{
+    border: '1px solid #ccc';
+    border-radius:  5px;
+    padding: '10px';
+    margin-bottom:  '20px';
+    display: 'flex';
+    flex-direction: 'column';
+    align-items: 'center';
+    max-width: '300px'
+}
+.product-image{
+    max-width: 200px;
+    max-height:100px ;
+    
+   
+}
+.buttons button:hover {
+    background-color: lightblue; /* Change to desired color */
+    color: wheat; /* Change to desired text color */
+  }
+  
