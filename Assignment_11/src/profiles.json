@@ -1,0 +1,19 @@
+{
+    "profiles": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "country": "USA",
+        "gender": "Male",
+        "pan": "ABCDE1234F"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "country": "Canada",
+        "gender": "Female",
+        "pan": "FGHIJ5678K"
+      }
+    ]
+  }
+  
